@@ -20,7 +20,7 @@ def block_to_block_type(markdown: str) -> BlockType:
   if markdown.startswith("```") and markdown.endswith("```"):
     return BlockType.CODE
 
-  if _checkEachLine(markdown, ">"):
+  if _checkEachLine(markdown, "> "):
     return BlockType.QUOTE
   if _checkEachLine(markdown, "- "):
     return BlockType.UNORDERED_LIST

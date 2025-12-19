@@ -4,9 +4,9 @@
 
 all of the following ideologies apply to all functional programming languages but here i will be only focusing on ocaml.
 
-\>relatablequote.jpg
+>relatablequote.jpg
 
-_Nan-in (南隠), a Japanese master during the Meiji era (1868-1912), received a university professor who came to inquire about Zen. Nan-in served tea. He poured his visitor’s cup full, and then kept on pouring. The professor watched the overflow until he no longer could restrain himself. “It is overfull. No more will go in!” “Like this cup,” Nan-in said, “you are full of your own opinions and speculations. How can I show you Zen unless you first empty your cup?”_ 
+> Nan-in (南隠), a Japanese master during the Meiji era (1868-1912), received a university professor who came to inquire about Zen. Nan-in served tea. He poured his visitor’s cup full, and then kept on pouring. The professor watched the overflow until he no longer could restrain himself. “It is overfull. No more will go in!” “Like this cup,” Nan-in said, “you are full of your own opinions and speculations. How can I show you Zen unless you first empty your cup?” 
 
 how can learning ocaml will make you a better programmer? because you will:
 
