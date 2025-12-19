@@ -12,7 +12,7 @@ class HTMlNode:
     self.props: dict[str, str] | None = props
 
   def to_html(self):
-    raise NotImplementedError()
+    raise NotImplementedError("to_html method not implemented")
 
   def props_to_html(self) -> str:
     if self.props:

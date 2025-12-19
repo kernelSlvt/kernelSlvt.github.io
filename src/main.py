@@ -1,36 +1,33 @@
-from htmlnode import HTMlNode, LeafNode, ParentNode
-from textnode import TextNode, TextType
+import logging
+import shutil
+import time
+from pathlib import Path
+
+from utils import copy_files, generate_pages_recursive
+
+logger: logging.Logger = logging.getLogger(__name__)
 
 
 def main() -> None:
-  newTextNode: TextNode = TextNode(
-    "This is some text", TextType.LINK, "https://www.google.com"
-  )
-  print(newTextNode)
+  logging.basicConfig(filename="file_events.log", level=logging.INFO)
+  logging.info(f"STARTED at {time.asctime()}")
 
-  someHtmlNode: HTMlNode = HTMlNode(
-    "a", "click here", None, {"href": "https://google.com", "target": "_blank"}
-  )
-  print(someHtmlNode)
-  print(someHtmlNode.props_to_html())
+  # clean the public/
+  dest_path: Path = Path("./public")
+  src_path: Path = Path("./static")
+  if dest_path.exists():
+    shutil.rmtree(dest_path)
+  dest_path.mkdir(parents=True, exist_ok=True)
+  # copy all the files and subdirectories from static/ to public/
+  copy_files(src_path, dest_path)
 
-  newHtmlNode: HTMlNode = HTMlNode("p", "this is a paragraph", [someHtmlNode], None)
-  print(newHtmlNode)
+  # generate the index page
+  content_path: Path = Path("./content")
+  template_path: Path = Path("./template.html")
+  public_path: Path = Path("./public")
+  generate_pages_recursive(content_path, template_path, public_path)
 
-  newLeafNode: LeafNode = LeafNode("a", "click me", {"href": "https://google.com"})
-  print(newLeafNode.to_html())
-
-  node: ParentNode = ParentNode(
-    "p",
-    [
-      LeafNode("b", "Bold text"),
-      LeafNode(None, "Normal text"),
-      LeafNode("i", "italic text"),
-      LeafNode(None, "Normal text"),
-    ],
-  )
-
-  print(node.to_html())
+  logging.info(f"FINISHED at {time.asctime()}\n")
 
 
 if __name__ == "__main__":
