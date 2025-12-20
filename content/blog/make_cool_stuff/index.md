@@ -1,12 +1,12 @@
 # make cool stuff
 
-[< Back Home](/)
+[< back home](/)
 
 this article focuses on breaking free from repetitive programming projects, but its ideas can be applied to any creative field, like film making, music, or art.
 
 are you stuck in tutorial hell, unsure of your next project, or burned out from repetitive coding?
 
-![frieren studying](https://staticg.sportskeeda.com/editor/2023/09/ac6f1-16960625198088-1920.jpg)
+![frieren studying](/images/frieren-studying.jpg)
 
 i use niche tools, code in multiple languages, and build unconventional projects just to learn how things work and for the love of the craft. my goal isn’t to make the most money - at least not yet lol.
 
@@ -50,7 +50,7 @@ you don't have to follow everything in the articles, just see where you got stuc
 
 OR you can just whatever you want, but make it soulful not just another knockoff.
 
-![lain studying](https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/refs/heads/master/C/Lain_studying.png)
+![lain studying](/images/lain_studying.png)
 
 another thing you could is making things under HEAVY constraints like:
 
@@ -78,13 +78,13 @@ in my opinion, if people fuck with your product, it's cool
 
 my big dawg carl jung once said:
 
-_"Know all the theories, master all the techniques, but as you touch a human soul be just another human soul."_
+> _"Know all the theories, master all the techniques, but as you touch a human soul be just another human soul."_
 
 you could be the best engineer in the world but if your product feels dead and soulless, no one would care. why?
 
 people dont care about perfection, they care about connection!
 
-![gojo hollow purple](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/02/gojo-hollow-purple.jpg)
+![gojo hollow purple](/images/gojo.jpeg)
 
 let me break it down for you:
 

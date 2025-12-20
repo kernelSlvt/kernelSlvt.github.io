@@ -1,5 +1,7 @@
 # on randomness and its implementation
 
+[< back home](/)
+
 > _I shall never believe that God plays dice with the world_.
 > 
 > -- Albert Einstein, 1947
@@ -22,7 +24,7 @@ now you might be wondering how is it possible to generate unpredictable results 
 
 yet computers do in fact use a deterministic procedure to generate what we call "random" numbers. this strategy somehow works because, even though the user could, in theory, follow the same set of rules and anticipate the computer's response, no one actually bothers to do so (lol lmao even).
 
-![random number](https://external-preview.redd.it/1cBW09gfcNvwgsft52m50h7Uy-y17GupeTFB4asVGNo.jpg?auto=webp&s=33039a586406a93b62a37872cf56c4bad1c935a9)
+![random number](/images/reddit-meme.jpg)
 
 turns out in most practical applications, it doesn't matter if the numbers are truly random; all that matters is that the number _appears_ to be random.
 
@@ -37,7 +39,7 @@ let us see how is this implemented in c/c++
 
 ## pseudorandom numbers in the standard libraries
 
-the `cstdlib` library exports a low level function called `rand` that produces pseudo-random numbers.
+the `<cstdlib>` library exports a low level function called `rand` that produces pseudo-random numbers.
 
 prototype for `rand` is
 
@@ -45,7 +47,7 @@ prototype for `rand` is
 int rand();
 ```
 
-each call to `rand` produces a different value that is difficult for users to predict and therefore appear to be random. the result of `rand` is guaranteed to be non-negative and no larger than the constant `RAND_MAX` from `cstdlib`, so each call to `rand` returns a `int` between $0$ and `RAND_MAX`, inclusive.
+each call to `rand` produces a different value that is difficult for users to predict and therefore appear to be random. the result of `rand` is guaranteed to be non-negative and no larger than the constant `RAND_MAX` from `<cstdlib>`, so each call to `rand` returns a `int` between $0$ and `RAND_MAX`, inclusive.
 
 let us print the result of calling `rand` 10 times to check the vibe
 
@@ -54,6 +56,7 @@ let us print the result of calling `rand` 10 times to check the vibe
 #include <iomanip>
 #include <iostream>
 using namespace std;
+
 int main(void) {
   cout << "RAND_MAX: " << RAND_MAX << endl;
   for (size_t i = 0; i < 10; i++) {
@@ -91,7 +94,7 @@ lets be real for a sec, even if you could count on `RAND_MAX` having that partic
 
 ### common pitfall in the rand function
 
-so in short, we have a function `rand` in the `cstdlib` library that generates a random number between $0$ ad a positive constant `RAND_MAX`, which is some point on a number line that looks like this:
+so in short, we have a function `rand` in the `<cstdlib>` library that generates a random number between $0$ ad a positive constant `RAND_MAX`, which is some point on a number line that looks like this:
 
 ![rand_max number line](/images/rand_max.png)
 
@@ -123,7 +126,7 @@ well the problem is that `rand` guarantees only that the value it produces is un
 
 what we want to do instead is divide the integers between $0$ and `RAND_MAX` into six equal-sized segments that correspond to the different outcomes, as follows:
 
-![partitions](https://raw.githubusercontent.com/Sarthak2143/bearblog/refs/heads/main/images/partitions.png)
+![partitions](/images/partitions.png)
 
 in the more general case, we need to divide the number line between $0$ and `RAND_MAX`  into $k$ equal intervals, where $k$ is the number of possible outcomes in the desired range.
 
@@ -148,6 +151,7 @@ now writing the code to implement this is pretty straightforward if you understo
 // 2. scale the number to the range [0...n) where n is the number of values
 // 3. translate the number so that the range starts at appropriate value
 // 4. convert the result to the next lower integer with floor()
+
 int randomInteger(int low, int high) {
   // normalising:
   double d = rand() / (double(RAND_MAX) + 1);
@@ -209,7 +213,7 @@ but what about the first call to `rand` the one that returns $1804289383$? the i
 
 this initial value that is used to get the entire process started is called the _seed_ for the random number generator.
 
-in the `cstdlib` library, you can set that _seed_ explicitly by calling `srand(seed)`.
+in the `<cstdlib>` library, you can set that _seed_ explicitly by calling `srand(seed)`.
 
 as we know from the multiple runs of the previous program, the C++ library sets the initial _seed_ to a constant value every time a program is started, which is why `rand` always generates the same sequence of values. 
 
@@ -250,6 +254,7 @@ int randomInteger(int low, int high) {
   double s = d * (double(high) - low + 1);
   return int(floor(low + s));
 }
+
 double randomReal(double low, double high) {
   initRandomSeed();
   double d = rand() / (double(RAND_MAX) + 1);
@@ -260,7 +265,7 @@ double randomReal(double low, double high) {
 
 and our random number generating library is complete now, i hope you understood the underlying basics :)
 
-![random num gen meme](https://i.programmerhumor.io/2025/03/58c71857e1ca682a837397376edb43ba.jpeg)
+![random num gen meme](/images/lain-meme.jpeg)
 
 ### monte carlo integration
 
@@ -294,6 +299,7 @@ we will simulate throwing $100,000$ darts and will use our random number library
 #include <iostream>
 using namespace std;
 const int LIMIT = 100000;
+
 int main(void) {
   double x, y;
   int sum_circle = 0;
@@ -304,6 +310,7 @@ int main(void) {
       sum_circle++;
     }
   }
+
   cout << sum_circle / double(LIMIT) << endl;
   cout << M_PI / 4 << endl; // M_PI stores the value of PI
   return 0;

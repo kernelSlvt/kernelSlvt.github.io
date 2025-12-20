@@ -1,6 +1,6 @@
 # why you should learn ocaml
 
-[< Back Home](/)
+[< back home](/)
 
 all of the following ideologies apply to all functional programming languages but here i will be only focusing on ocaml.
 
@@ -23,7 +23,7 @@ moreover, ocaml is beautiful. some normies might not agree to this statement but
 
 fyi ocaml stands for _objective abstract machine language_, read [more](https://cs3110.github.io/textbook/chapters/intro/past.html) about its history.
 
-![ritsuko holding orly](https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/refs/heads/master/Uncategorized/Ritsuko_Reads_Orly_Meme_Book.png)
+![ritsuko holding orly](/images/ritsuko.png)
 
 ocaml is _awesome_ due to:
 
