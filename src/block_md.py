@@ -131,7 +131,8 @@ def markdown_to_html_node(markdown: str) -> ParentNode:
           ordered_list: ParentNode = ParentNode("ol", list_items)
           parentNode.children.append(ordered_list)  # pyright: ignore[reportOptionalMemberAccess]
         case BlockType.CODE:
-          text: str = block.replace("```", "").strip()
+          first_line: str = block.split("\n")[0]
+          text: str = block.replace(first_line, "").replace("```", "").strip()
           code_node: TextNode = TextNode(text, TextType.CODE)
           code_leaf_node: LeafNode = text_node_to_html_node(code_node)
           code: ParentNode = ParentNode("pre", [code_leaf_node])
