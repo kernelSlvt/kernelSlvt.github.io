@@ -16,6 +16,7 @@ c++ // ocaml // rust // python // ts // golang // haskell
 
 - [make cool stuff](/blog/make_cool_stuff)
 - [why you should learn ocaml](/blog/learn_ocaml)
+- [on randomness and its implementation](/blog/randomness_impl)
 
 ![header](/images/header.jpeg)
 
