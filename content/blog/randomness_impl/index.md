@@ -51,7 +51,7 @@ each call to `rand` produces a different value that is difficult for users to pr
 
 let us print the result of calling `rand` 10 times to check the vibe
 
-```
+```cpp
 #include <cstdlib>
 #include <iomanip>
 #include <iostream>
@@ -106,13 +106,13 @@ as it happens, there are many bad strategies for performing this transformation.
 
 if you thought of doing something like this:
 
-```
+```cpp
 int die = rand() % 6 + 1;
 ```
 
 or in general:
 
-```
+```cpp
 int randomChoice = (rand() % UPPER_LIMIT) + LOWER_LIMIT;
 ```
 
@@ -145,7 +145,7 @@ steps required to generate a random integer in the range $1$ to $6$ are:
 
 now writing the code to implement this is pretty straightforward if you understood everything till here.
 
-```
+```cpp
 // this function returns a random number in 4 stages:
 // 1. generate a real number d in the range [0...1)
 // 2. scale the number to the range [0...n) where n is the number of values
@@ -164,7 +164,7 @@ int randomInteger(int low, int high) {
 
 similarly function for generating random real numbers could be implemented
 
-```
+```cpp
 double randomReal(double low, double high) {
   double d = rand() / (double(RAND_MAX) + 1);
   double s = d * (high - low + 1);
@@ -223,7 +223,7 @@ now you might be thinking : "senpai, but why the value from the system clock? wh
 
 in C++, we can retrieve the current value of the system clock by calling the function `time` and then converting the result to an integer. this allows you to write the following statement, which has the effect of initializing the pseudorandom number generator to an unpredictable point:
 
-```
+```cpp
 srand(int(time(NULL)));
 ```
 
@@ -233,7 +233,7 @@ to ensure that the initialization code doesn’t get executed every time, you ne
 
 we'll use this function to initialize a random seed before initializing any of our functions in the library:
 
-```
+```cpp
 void initRandomSeed() {
   static bool initialized = false;
   if (!initialized) {
@@ -247,7 +247,7 @@ now we need to use this function in `randomInteger` and `randomReal`
 
 updated functions definitions:
 
-```
+```cpp
 int randomInteger(int low, int high) {
   initRandomSeed();
   double d = rand() / (double(RAND_MAX) + 1);
@@ -293,7 +293,7 @@ solution:
 
 we will simulate throwing $100,000$ darts and will use our random number library that we designed to approximate the value of $\pi$
 
-```
+```cpp
 #include "random.h"
 #include <cmath>
 #include <iostream>
