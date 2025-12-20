@@ -1,9 +1,6 @@
 body {
-  /*background-color: #1f1c25;*/
-  /*background-color: #272429;*/
   background-color: #121314;
   color: #f0e6d1;
-  /*font-family: "Luminari", "Georgia", serif;*/
   font-family: "IBM Plex Mono", serif;
   line-height: 1.7;
   margin: 0;
@@ -49,7 +46,6 @@ h6 {
 }
 
 a {
-  /*color: #e0a96d;*/
   color: #eb99a1;
   text-decoration: none;
   /*border-bottom: 2px solid #d92588;*/
@@ -75,12 +71,11 @@ code {
 
 pre code {
   padding: 0;
+  border-radius: 0;
 }
 
 pre {
   background-color: #40363a;
-  border-radius: 6px;
-  padding: 0.7em;
   overflow: auto;
   box-shadow: 2px 2px 6px #000;
 }
