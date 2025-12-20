@@ -103,6 +103,13 @@ img {
   border-radius: 2px;
 }
 
+.footer {
+  text-align: center;
+  margin: 5rem;
+  font-size: 0.9rem;
+  padding: 0 30px 30px 30px;
+}
+
 ::-webkit-scrollbar {
   width: 12px;
   height: 12px;
