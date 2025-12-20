@@ -74,8 +74,29 @@ def _convertToListItems(list_text: str) -> list[ParentNode]:
 
 
 def markdown_to_blocks(markdown: str) -> list[str]:
-  text: list[str] = markdown.split("\n\n")
-  blocks: list[str] = list(map(lambda x: x.strip(), text))
+  blocks: list[str] = []
+  inCodeBlock: bool = False
+  lines: list[str] = markdown.split("\n")
+  text: str = ""
+  for line in lines:
+    # replacing the lt and gt signs
+    if line.startswith(">"):
+      line = ">" + line[1:].replace("<", "&lt").replace(">", "&gt")
+    else:
+      line = line.replace("<", "&lt").replace(">", "&gt")
+
+    # we dont want to split lines in our codeblock
+    if line.startswith("```"):
+      inCodeBlock = not inCodeBlock
+    if line:
+      text += line + "\n"
+    else:
+      if inCodeBlock:
+        text += "\n"
+      else:
+        if text:
+          blocks.append(text.strip())
+          text = ""
   return blocks
 
 
