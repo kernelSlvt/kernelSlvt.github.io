@@ -1,4 +1,6 @@
-# sλrthak 
+title: sλrthak 
+date: 2025-12-22
+-----
 
 hallo there!! im a second year cs undergrad. i am interested in **deep learning**, **systems programming** and **high performance computing**. i post about my work and interests here.
 

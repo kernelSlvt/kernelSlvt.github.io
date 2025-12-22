@@ -1,6 +1,6 @@
-# on randomness and its implementation
-
-[< back home](/)
+title: on randomness and its implementation
+date: 2025-07-19
+-----
 
 > _I shall never believe that God plays dice with the world_.
 > 

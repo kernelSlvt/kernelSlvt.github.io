@@ -3,7 +3,7 @@ import shutil
 import time
 from pathlib import Path
 
-from utils import copy_files, generate_pages_recursive
+from utils import copy_files, generate_page, generate_pages_recursive
 
 logger: logging.Logger = logging.getLogger(__name__)
 
@@ -22,10 +22,16 @@ def main() -> None:
   copy_files(src_path, dest_path)
 
   # generate the index page
-  content_path: Path = Path("./content")
-  template_path: Path = Path("./template.html")
-  public_path: Path = Path("./public")
-  generate_pages_recursive(content_path, template_path, public_path)
+  index_path: Path = Path("./content/index.md")
+  index_template_path: Path = Path("./templates/home.html")
+  index_dest_path: Path = Path("./public/index.html")
+  generate_page(index_path, index_template_path, index_dest_path)
+
+  # generate the blogs dir
+  blogs_path: Path = Path("./content/blog")
+  blog_template_path: Path = Path("./templates/blogs.html")
+  blogs_dest_path: Path = Path("./public/blog")
+  generate_pages_recursive(blogs_path, blog_template_path, blogs_dest_path)
 
   logging.info(f"FINISHED at {time.asctime()}\n")
 

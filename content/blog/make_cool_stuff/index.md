@@ -1,6 +1,6 @@
-# make cool stuff
-
-[< back home](/)
+title: make cool stuff
+date: 2025-08-30
+-----
 
 this article focuses on breaking free from repetitive programming projects, but its ideas can be applied to any creative field, like film making, music, or art.
 

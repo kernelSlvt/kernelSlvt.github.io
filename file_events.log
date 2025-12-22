@@ -545,4 +545,398 @@ INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/b
 INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using template.html.
 INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using template.html.
 INFO:root:FINISHED at Sun Dec 21 04:56:15 2025
+INFO:root:STARTED at Mon Dec 22 16:19:37 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:STARTED at Mon Dec 22 16:20:16 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:STARTED at Mon Dec 22 16:20:59 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:STARTED at Mon Dec 22 16:22:45 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:STARTED at Mon Dec 22 16:28:07 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using template.html.
+INFO:root:STARTED at Mon Dec 22 16:28:54 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using template.html.
+INFO:root:STARTED at Mon Dec 22 16:29:14 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using template.html.
+INFO:root:STARTED at Mon Dec 22 16:29:55 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using template.html.
+INFO:root:STARTED at Mon Dec 22 16:30:14 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using template.html.
+INFO:root:STARTED at Mon Dec 22 16:30:57 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using template.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using template.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using template.html.
+INFO:root:FINISHED at Mon Dec 22 16:30:58 2025
+
+INFO:root:STARTED at Mon Dec 22 16:31:47 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using template.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using template.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using template.html.
+INFO:root:FINISHED at Mon Dec 22 16:31:47 2025
+
+INFO:root:STARTED at Mon Dec 22 16:33:28 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using template.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using template.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using template.html.
+INFO:root:FINISHED at Mon Dec 22 16:33:28 2025
+
+INFO:root:STARTED at Mon Dec 22 16:34:19 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using template.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using template.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using template.html.
+INFO:root:FINISHED at Mon Dec 22 16:34:19 2025
+
+INFO:root:STARTED at Mon Dec 22 16:34:47 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.md using template.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using template.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using template.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using template.html.
+INFO:root:FINISHED at Mon Dec 22 16:34:47 2025
+
+INFO:root:STARTED at Mon Dec 22 16:42:00 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public using templates/home.html.
+INFO:root:STARTED at Mon Dec 22 16:45:10 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.html using templates/home.html.
+INFO:root:STARTED at Mon Dec 22 16:45:25 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.html using templates/home.html.
+INFO:root:STARTED at Mon Dec 22 16:48:05 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Generating page from content/index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Mon Dec 22 16:48:05 2025
 

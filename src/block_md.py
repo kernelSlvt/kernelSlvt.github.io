@@ -74,9 +74,10 @@ def _convertToListItems(list_text: str) -> list[ParentNode]:
 
 
 def markdown_to_blocks(markdown: str) -> list[str]:
+  cleaned_text: str = markdown.split("-----", 1)[-1]
   blocks: list[str] = []
   inCodeBlock: bool = False
-  lines: list[str] = markdown.split("\n")
+  lines: list[str] = cleaned_text.split("\n")
   text: str = ""
   for line in lines:
     # replacing the lt and gt signs

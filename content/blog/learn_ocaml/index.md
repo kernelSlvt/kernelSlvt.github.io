@@ -1,6 +1,6 @@
-# why you should learn ocaml
-
-[< back home](/)
+title: why you should learn ocaml
+date: 2025-07-30
+-----
 
 all of the following ideologies apply to all functional programming languages but here i will be only focusing on ocaml.
 

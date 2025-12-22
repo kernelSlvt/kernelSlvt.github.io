@@ -1,6 +1,7 @@
 import logging
 import os
 import shutil
+from datetime import date
 from pathlib import Path
 
 from block_md import markdown_to_html_node
@@ -9,19 +10,25 @@ from htmlnode import ParentNode
 logger: logging.Logger = logging.getLogger(__name__)
 
 
-def extract_title(markdown: str) -> str:
-  lines: list[str] = markdown.split("\n")
-  in_code_block: bool = False
+def extract_metadata(markdown: str) -> list[str]:
+  metadata: list[str] = markdown.split("-----", 1)[0].strip().split("\n")
+  print(metadata)
+  title: str = ""
+  date_: str = ""
+  for line in metadata:
+    if line.startswith("title"):
+      title = line.split("title:", 1)[-1].strip()
+      print(title)
+    if line.startswith("date"):
+      # print(line.split("date:", 1))
+      date_ = line.split("date:", 1)[1].strip()
+      print(date_)
+      date_ = date.fromisoformat(date_).strftime("%d %b, %Y")
 
-  for line in lines:
-    if line.strip().startswith("```"):
-      in_code_block = not in_code_block
-      continue
+  if not title or not date_:
+    raise Exception("Invalid metadata provided.")
 
-    if not in_code_block and line.startswith("# "):
-      return line.split("# ", 1)[-1].strip()
-
-  raise Exception("Invalid MD: No h1 header found.")
+  return [title, date_]
 
 
 def copy_files(src: Path, dest: Path) -> None:
@@ -41,6 +48,7 @@ def copy_files(src: Path, dest: Path) -> None:
 def generate_pages_recursive(
   dir_path_content: Path, template_path: Path, dest_dir_path: Path
 ) -> None:
+  dest_dir_path.mkdir(exist_ok=True, parents=True)
   contents: list[str] = os.listdir(dir_path_content)
   for content in contents:
     file_path: Path = dir_path_content / content
@@ -64,8 +72,15 @@ def generate_page(from_path: Path, template_path: Path, dest_path: Path) -> None
 
   html_node: ParentNode = markdown_to_html_node(markdown)
   content: str = html_node.to_html()
-  title: str = extract_title(markdown)
-  html: str = templ.replace("{{ Title }}", title).replace("{{ Content }}", content)
+  metadata: list[str] = extract_metadata(markdown)
+  title: str = metadata[0]
+  date_: str = metadata[1]
+
+  html: str = (
+    templ.replace("{{ Title }}", title)
+    .replace("{{ Date }}", date_)
+    .replace("{{ Content }}", content)
+  )
 
   dest_path.parent.mkdir(parents=True, exist_ok=True)
   dest_path.write_text(html)
