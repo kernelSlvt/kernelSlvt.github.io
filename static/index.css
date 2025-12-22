@@ -45,6 +45,10 @@ h6 {
   font-size: 1.2em;
 }
 
+.blog-heading {
+  color: #f0e6d1;
+}
+
 a {
   color: #eb99a1;
   text-decoration: none;

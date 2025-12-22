@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ Title }}</title>
+    <title>{{ Name }}</title>
     <!-- math jax -->
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -13,10 +13,7 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
     ></script>
     <!-- highlight.js -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/base16/gruvbox-dark-hard.css"
-    />
+    <link rel="stylesheet" href="/themes/gruvbox-dark-hard.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script>
     <script>
@@ -29,7 +26,7 @@
     </style>
   </head>
   <body>
-    <h1>{{ Title }}</h1>
+    <h2><a href="/">{{ Name }}</a></h2>
     <article>{{ Content }}</article>
     <div class="footer">
       Copyright © 2026 Sarthak Tomar. All rights reserved.

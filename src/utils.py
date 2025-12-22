@@ -1,3 +1,4 @@
+import json
 import logging
 import os
 import shutil
@@ -26,6 +27,12 @@ def extract_metadata(markdown: str) -> list[str]:
     raise Exception("Invalid metadata provided.")
 
   return [title, date_]
+
+
+def load_config() -> dict[str, str]:
+  config_path: Path = Path("./config.json")
+  data: dict[str, str] = json.loads(config_path.read_text())
+  return data
 
 
 def copy_files(src: Path, dest: Path) -> None:
@@ -69,12 +76,17 @@ def generate_page(from_path: Path, template_path: Path, dest_path: Path) -> None
 
   html_node: ParentNode = markdown_to_html_node(markdown)
   content: str = html_node.to_html()
+
   metadata: list[str] = extract_metadata(markdown)
   title: str = metadata[0]
   date_: str = metadata[1]
 
+  configs: dict[str, str] = load_config()
+  name: str = configs["name"]
+
   html: str = (
-    templ.replace("{{ Title }}", title)
+    templ.replace("{{ Name }}", name)
+    .replace("{{ Title }}", title)
     .replace("{{ Date }}", date_)
     .replace("{{ Content }}", content)
   )
