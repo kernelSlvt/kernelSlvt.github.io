@@ -12,17 +12,14 @@ logger: logging.Logger = logging.getLogger(__name__)
 
 def extract_metadata(markdown: str) -> list[str]:
   metadata: list[str] = markdown.split("-----", 1)[0].strip().split("\n")
-  print(metadata)
   title: str = ""
   date_: str = ""
   for line in metadata:
     if line.startswith("title"):
       title = line.split("title:", 1)[-1].strip()
-      print(title)
     if line.startswith("date"):
       # print(line.split("date:", 1))
       date_ = line.split("date:", 1)[1].strip()
-      print(date_)
       date_ = date.fromisoformat(date_).strftime("%d %b, %Y")
 
   if not title or not date_:
