@@ -1172,3 +1172,1476 @@ INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/
 INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
 INFO:root:FINISHED at Mon Dec 22 22:42:03 2025
 
+INFO:root:STARTED at Thu Dec 25 00:52:41 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Thu Dec 25 00:52:41 2025
+
+INFO:root:STARTED at Thu Dec 25 00:53:04 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Thu Dec 25 00:53:04 2025
+
+INFO:root:STARTED at Fri Dec 26 01:05:30 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:05:30 2025
+
+INFO:root:STARTED at Fri Dec 26 01:52:36 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:52:36 2025
+
+INFO:root:STARTED at Fri Dec 26 01:52:52 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:52:52 2025
+
+INFO:root:STARTED at Fri Dec 26 01:53:08 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:53:08 2025
+
+INFO:root:STARTED at Fri Dec 26 01:54:00 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:54:00 2025
+
+INFO:root:STARTED at Fri Dec 26 01:54:14 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:54:14 2025
+
+INFO:root:STARTED at Fri Dec 26 01:54:31 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:54:31 2025
+
+INFO:root:STARTED at Fri Dec 26 01:54:59 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:54:59 2025
+
+INFO:root:STARTED at Fri Dec 26 01:55:27 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:STARTED at Fri Dec 26 01:56:04 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:56:04 2025
+
+INFO:root:STARTED at Fri Dec 26 01:56:15 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:56:15 2025
+
+INFO:root:STARTED at Fri Dec 26 01:58:18 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:58:18 2025
+
+INFO:root:STARTED at Fri Dec 26 01:58:21 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:58:21 2025
+
+INFO:root:STARTED at Fri Dec 26 01:58:35 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 01:58:35 2025
+
+INFO:root:STARTED at Fri Dec 26 02:01:21 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:STARTED at Fri Dec 26 02:01:37 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:01:37 2025
+
+INFO:root:STARTED at Fri Dec 26 02:02:07 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:02:07 2025
+
+INFO:root:STARTED at Fri Dec 26 02:06:50 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/espresso.css
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/dracula.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:06:50 2025
+
+INFO:root:STARTED at Fri Dec 26 02:14:07 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:14:07 2025
+
+INFO:root:STARTED at Fri Dec 26 02:19:44 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:19:44 2025
+
+INFO:root:STARTED at Fri Dec 26 02:22:45 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:22:45 2025
+
+INFO:root:STARTED at Fri Dec 26 02:24:26 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:STARTED at Fri Dec 26 02:25:31 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:25:31 2025
+
+INFO:root:STARTED at Fri Dec 26 02:26:13 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:26:13 2025
+
+INFO:root:STARTED at Fri Dec 26 02:27:04 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:27:04 2025
+
+INFO:root:STARTED at Fri Dec 26 02:27:13 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:27:13 2025
+
+INFO:root:STARTED at Fri Dec 26 02:29:19 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:29:19 2025
+
+INFO:root:STARTED at Fri Dec 26 02:30:11 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:30:11 2025
+
+INFO:root:STARTED at Fri Dec 26 02:33:01 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:33:01 2025
+
+INFO:root:STARTED at Fri Dec 26 02:34:23 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:34:23 2025
+
+INFO:root:STARTED at Fri Dec 26 02:37:09 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:37:09 2025
+
+INFO:root:STARTED at Fri Dec 26 02:37:22 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:37:22 2025
+
+INFO:root:STARTED at Fri Dec 26 02:38:13 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:38:13 2025
+
+INFO:root:STARTED at Fri Dec 26 02:38:24 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:38:24 2025
+
+INFO:root:STARTED at Fri Dec 26 02:39:30 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:39:30 2025
+
+INFO:root:STARTED at Fri Dec 26 02:39:56 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 02:39:56 2025
+
+INFO:root:STARTED at Fri Dec 26 02:56:50 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:STARTED at Fri Dec 26 03:24:16 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 03:24:16 2025
+
+INFO:root:STARTED at Fri Dec 26 03:29:01 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 03:29:01 2025
+
+INFO:root:STARTED at Fri Dec 26 03:30:20 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 03:30:20 2025
+
+INFO:root:STARTED at Fri Dec 26 03:30:32 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 03:30:32 2025
+
+INFO:root:STARTED at Fri Dec 26 03:31:28 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 03:31:28 2025
+
+INFO:root:STARTED at Fri Dec 26 03:31:57 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 03:31:57 2025
+
+INFO:root:STARTED at Fri Dec 26 03:33:40 2025
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to public/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to public/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to public/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to public/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to public/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Fri Dec 26 03:33:40 2025
+

@@ -1,4 +1,13 @@
 {
   "name": "sλrthak",
-  "colorscheme": "gruvbox-dark-hard"
+  "colorscheme": "gruvbox-dark-hard",
+  "contact": {
+    "github": "Sarthak2143",
+    "mail": "sarthaktomar2143@gmail.com",
+    "twitter/x": "sarthak2143",
+    "discord": ["_sarthak2143", 1226399791362080820],
+    "linkedin": "sarthaktomar2143",
+    "instagram": "sarthak.pdf"
+  },
+  "banner": "/images/header.jpeg"
 }

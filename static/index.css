@@ -102,6 +102,15 @@ img {
   border-radius: 2px;
 }
 
+.blog-flex {
+  display: flex;
+  line-height: 20px;
+}
+
+.blog-flex span {
+  min-width: 150px;
+}
+
 .footer {
   text-align: center;
   margin: 5rem;
