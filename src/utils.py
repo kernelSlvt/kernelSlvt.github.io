@@ -162,24 +162,6 @@ def get_recent_blogs(blog_data: dict[str, list[str]]) -> str:
 def get_contact_list(contact_list) -> str:
   contact_str: str = ""
   for contact in contact_list:
-    value = contact_list[contact]
-    match contact:
-      case "github":
-        contact_str += (
-          f'<li><a href = "https://github.com/{value}">{contact} @{value}</a></li>'
-        )
-      case "mail":
-        contact_str += f'<li><a href = "mailto:{value}">{contact} {value}</a></li>'
-      case "twitter/x":
-        contact_str += (
-          f'<li><a href = "https://x.com/{value}">{contact} @{value}</a></li>'
-        )
-      case "discord":
-        contact_str += f'<li><a href = "https://discord.com/users/{value[1]}">{contact} @{value[0]}</a></li>'
-      case "linkedin":
-        contact_str += f'<li><a href = "https://linked.com/in/{value}">{contact} /in/{value}</a></li>'
-      case "instagram":
-        contact_str += (
-          f'<li><a href = "https://instagram.com/{value}">{contact} @{value}</a></li>'
-        )
+    values: list[str] = contact_list[contact]
+    contact_str += f'<li><a href = "{values[1]}">{contact} {values[0]}</a></li>'
   return contact_str

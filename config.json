@@ -2,12 +2,15 @@
   "name": "sλrthak",
   "colorscheme": "gruvbox-dark-hard",
   "contact": {
-    "github": "Sarthak2143",
-    "mail": "sarthaktomar2143@gmail.com",
-    "twitter/x": "sarthak2143",
-    "discord": ["_sarthak2143", 1226399791362080820],
-    "linkedin": "sarthaktomar2143",
-    "instagram": "sarthak.pdf"
+    "github": ["@Sarthak2143", "https://github.com/Sarthak2143"],
+    "mail": ["sarthaktomar2143@gmail.com", "mailto:sarthaktomar2143@gmail.com"],
+    "twitter/x": ["@sarthak2143", "https://x.com/sarthak2143"],
+    "discord": [
+      "@_sarthak2143",
+      "https://discord.com/users/1226399791362080820"
+    ],
+    "linkedin": ["/in/sarthaktomar2143", "https://linkedin.com/in/sarthak2143"],
+    "instagram": ["@sarthak.pdf", "https://instagram.com/sarthak.pdf"]
   },
   "banner": "/images/header.jpeg"
 }
