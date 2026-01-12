@@ -2869,3 +2869,35 @@ INFO:root:Generating page from content/blog/learn_ocaml/index.md to docs/blog/le
 INFO:root:Generating page from content/blog/randomness_impl/index.md to docs/blog/randomness_impl/index.md using templates/blogs.html.
 INFO:root:FINISHED at Mon Jan 12 15:06:19 2026
 
+INFO:root:STARTED at Mon Jan 12 15:12:16 2026
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/header.jpeg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/themes/default-dark.css
+INFO:root:Copy static/themes/tokyo-night-dark.css
+INFO:root:Copy static/themes/material-darker.css
+INFO:root:Copy static/themes/gruvbox-dark-hard.css
+INFO:root:Copy static/themes/solarized-dark.css
+INFO:root:Copy static/themes/monokai.css
+INFO:root:Generating page from content/_index.md to docs/index.html using templates/home.html.
+INFO:root:Generating page from content/blog/_index.md to docs/blog/index.html using templates/blog_index.html.
+INFO:root:Generating page from content/blog/make_cool_stuff/index.md to docs/blog/make_cool_stuff/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/learn_ocaml/index.md to docs/blog/learn_ocaml/index.md using templates/blogs.html.
+INFO:root:Generating page from content/blog/randomness_impl/index.md to docs/blog/randomness_impl/index.md using templates/blogs.html.
+INFO:root:FINISHED at Mon Jan 12 15:12:16 2026
+
