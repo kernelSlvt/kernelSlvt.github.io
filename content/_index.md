@@ -8,7 +8,7 @@ im trying to discover more interesting things out there and spend time learning 
 
 open to **new roles** in the above fields (and more!!)
 
-c++ // ocaml // rust // python // ts // golang // haskell
+c++ // rust // python // ocaml // ts // golang // haskell
 
 > "waking up is the second hardest thing in the morning"
 >
