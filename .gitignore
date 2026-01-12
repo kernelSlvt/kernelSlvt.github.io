@@ -1,4 +1,3 @@
 __pycache__/
 public/*
 *.log
-.gitlab-ci.yml
