@@ -1,0 +1,148 @@
+body {
+  background-color: #121314;
+  color: #f0e6d1;
+  font-family: "IBM Plex Mono", serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+b {
+  font-weight: 900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*color: #dda15e;*/
+  color: #eb99a1;
+  margin-top: 24px;
+  font-family: "Instrument Serif", serif;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.2em;
+}
+
+.blog-heading {
+  color: #f0e6d1;
+}
+
+a {
+  color: #eb99a1;
+  text-decoration: none;
+  /*border-bottom: 2px solid #d92588;*/
+}
+
+a:hover {
+  color: #e26f7a;
+  border-color: #e26f7a;
+}
+
+ul,
+ol {
+  padding-left: 30px;
+}
+
+code {
+  background-color: #40363a;
+  border-radius: 6px;
+  color: #e9c46a;
+  padding: 0.1em 0.2em;
+  font-family: "JetBrains Mono", monospace;
+}
+
+pre code {
+  padding: 0;
+  border-radius: 0;
+}
+
+pre {
+  background-color: #40363a;
+  overflow: auto;
+  box-shadow: 2px 2px 6px #000;
+}
+
+blockquote {
+  background-color: #40363a;
+  border-left: 4px solid #8d99ae;
+  padding-left: 2em;
+  margin-left: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  color: #ddd;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.blog-flex {
+  display: flex;
+  line-height: 20px;
+}
+
+.blog-flex span {
+  min-width: 150px;
+}
+
+.footer {
+  text-align: center;
+  margin: 5rem;
+  font-size: 0.9rem;
+  padding: 0 30px 30px 30px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f1c25;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3c3c42;
+  border-radius: 6px;
+  border: 3px solid #1f1c25;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5a5466;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3c3c42 #1f1c25;
+}
+
+::-webkit-scrollbar-corner {
+  background: #1f1c25;
+}
