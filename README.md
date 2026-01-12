@@ -7,3 +7,8 @@ idea:
   raw md -> `TextNode` -> `HTMLNode`
 - join all html nodes
 
+
+TODO:
+
+- [ ] fix breaking tests
+- [ ] write new tests
