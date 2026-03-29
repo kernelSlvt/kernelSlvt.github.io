@@ -6,7 +6,7 @@ hey! i'm a second year cs undergrad interested in **ml engineering**, **systems 
 
 i'm trying to discover more interesting things out there and spend time learning and reflecting on them. witnessing the emerging effects of a dozen matmuls is incredible to me. long term goal is to understand them in great depth and build systems for them in order to build intelligence.
 
-currently: building **RAG pipeline** from scratch // writing **gpu kernels**
+currently: building **RAG pipeline** from scratch || writing **gpu kernels**
 
 open to **new roles** in the above fields!
 

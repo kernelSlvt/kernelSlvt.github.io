@@ -60,6 +60,10 @@ a:hover {
   border-color: #e26f7a;
 }
 
+.nav-link {
+  padding-right: 12px;
+}
+
 ul,
 ol {
   padding-left: 30px;
