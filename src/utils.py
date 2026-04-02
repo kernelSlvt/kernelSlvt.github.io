@@ -83,27 +83,20 @@ def generate_page(from_path: Path, template_path: Path, dest_path: Path) -> None
   title: str = metadata[0]
   date_: str = metadata[1].strftime("%d %b, %Y")  # pyright: ignore[reportAttributeAccessIssue]
 
-  configs: dict[str, str] = load_config()
-  name: str = configs["name"]
-  banner_img: str = configs["banner"]
-  banner_link: str = f"<img src = '{banner_img}' alt = 'banner image'>"
-  contact_dict = configs["contact"]
-
-  blogs_path: Path = Path("./content/blog")
+  blogs_path: Path = Path("./content/blogs")
   blog_data: dict[str, list[str]] = walk_blogs(blogs_path)
-  all_blogs_data: str = get_all_blogs(blog_data)
-  recent_blogs_data: str = get_recent_blogs(blog_data)
-  contact_list: str = get_contact_list(contact_dict)
+  blogs_listing: str = get_blogs(blog_data, "blogs")
+
+  writeups_path: Path = Path("./content/writeups")
+  writeups_data: dict[str, list[str]] = walk_blogs(writeups_path)
+  writeups_listing: str = get_blogs(writeups_data, "writeups")
 
   html: str = (
-    templ.replace("{{ Name }}", name)
-    .replace("{{ Title }}", title)
+    templ.replace("{{ Title }}", title)
     .replace("{{ Date }}", date_)
     .replace("{{ Content }}", content)
-    .replace("{{ All_blogs }}", all_blogs_data)
-    .replace("{{ Recent_blogs }}", recent_blogs_data)
-    .replace("{{ Banner_image }}", banner_link)
-    .replace("{{ Contact }}", contact_list)
+    .replace("{{ Blogs }}", blogs_listing)
+    .replace("{{ Writeups }}", writeups_listing)
   )
 
   dest_path.parent.mkdir(parents=True, exist_ok=True)
@@ -135,33 +128,15 @@ def walk_blogs(blog_path: Path) -> dict[str, list[str]]:
   return sorted_dict
 
 
-def get_all_blogs(blog_data: dict[str, list[str]]) -> str:
+def get_blogs(blog_data: dict[str, list[str]], type: str) -> str:
+  if type not in ["blogs", "writeups"]:
+    raise Exception("Invalid blog type passed\nAllowed: blogs, writeups")
   blog_str: str = ""
   for link in blog_data:
     title: str = blog_data[link][0]
-    date: str = blog_data[link][1].strftime("%d %b, %Y")  # pyright: ignore[reportAttributeAccessIssue]
-    para_str: str = f'<p class = "blog-flex"><span><i>{date}</i></span><a href = "/blog/{link}">{title}</a></p>'
-    blog_str += para_str
+    date: str = blog_data[link][1].strftime("%b %Y").lower()  # pyright: ignore[reportAttributeAccessIssue]
+    p_str: str = (
+      f'<p class = "home-list">[{date}] <a href = "/{type}/{link}">{title}</a></p>'
+    )
+    blog_str += p_str
   return blog_str
-
-
-def get_recent_blogs(blog_data: dict[str, list[str]]) -> str:
-  blog_str: str = ""
-  count: int = 0
-  max_count: int = min(5, len(blog_data))
-  for link in blog_data:
-    count += 1
-    if count > max_count:
-      break
-    title: str = blog_data[link][0]
-    li_str: str = f'<li><a href = "/blog/{link}">{title}</a></li>'
-    blog_str += li_str
-  return blog_str
-
-
-def get_contact_list(contact_list) -> str:
-  contact_str: str = ""
-  for contact in contact_list:
-    values: list[str] = contact_list[contact]
-    contact_str += f'<li><a href = "{values[1]}">{contact} {values[0]}</a></li>'
-  return contact_str
