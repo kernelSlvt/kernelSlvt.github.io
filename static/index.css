@@ -1,11 +1,12 @@
 body {
   background-color: #121314;
   color: #f0e6d1;
-  font-family: "IBM Plex Mono", serif;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 18px;
   line-height: 1.7;
   margin: 0;
   padding: 20px;
-  max-width: 800px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -20,11 +21,20 @@ h3,
 h4,
 h5,
 h6 {
-  /*color: #dda15e;*/
   color: #eb99a1;
-  margin-top: 24px;
+  margin-top: 8px;
   font-family: "Instrument Serif", serif;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+
+.name-title {
+  margin-bottom: 0px;
+}
+
+.full-name {
+  color: #f0e6d1;
+  margin-top: 0px;
+  margin-bottom: 8px;
 }
 
 h1 {
@@ -52,7 +62,6 @@ h6 {
 a {
   color: #eb99a1;
   text-decoration: none;
-  /*border-bottom: 2px solid #d92588;*/
 }
 
 a:hover {
@@ -60,13 +69,15 @@ a:hover {
   border-color: #e26f7a;
 }
 
-.nav-link {
-  padding-right: 12px;
-}
-
 ul,
 ol {
-  padding-left: 30px;
+  padding-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.home-list {
+  margin: 0;
 }
 
 code {
@@ -117,9 +128,9 @@ img {
 
 .footer {
   text-align: center;
-  margin: 5rem;
+  margin: 3rem;
   font-size: 0.9rem;
-  padding: 0 30px 30px 30px;
+  padding: 0 20px 20px 20px;
 }
 
 ::-webkit-scrollbar {
