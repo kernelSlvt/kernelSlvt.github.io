@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>why you should learn ocaml | sλrthak</title>
+    <title>why you should learn ocaml</title>
     <!-- math jax -->
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -13,27 +13,22 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
     ></script>
     <!-- highlight.js -->
-    <link rel="stylesheet" href="/themes/gruvbox-dark-hard.css" />
+    <link rel="stylesheet" href="/gruvbox-dark-hard.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script>
     <script>
       hljs.highlightAll();
     </script>
-    <link href="/index.css" rel="stylesheet" />
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <!-- font -->
     <style>
       @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
     </style>
+    <!---- -->
+    <link href="/index.css" rel="stylesheet" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <h2><a href="/">sλrthak</a></h2>
-    <nav>
-      <p>
-        <a class="nav-link" href="/">home</a>
-        <a class="nav-link" href="/blog">blogs</a>
-        <a class="nav-link" href="/projects">projects</a>
-      </p>
-    </nav>
     <h1 class="blog-heading">why you should learn ocaml</h1>
     <i>30 Jul, 2025</i>
     <br />
@@ -47,7 +42,7 @@ let greeting = person =&gt
   | Student(anyOtherName) =&gt "Hey, " ++ anyOtherName ++ "."
   };</code></pre><p>reason is for front end dev which solves the problem of js lack of compile time typing.</p><ul><li>jane street: the largest commercial user of ocaml in the industry by a huge margin, for those who don't know jane street is a quantitative trading firm based in nyc. they are using ocaml for everything from research tools to trading systems to systems infra to accounting systems.</li></ul><p>they have over 500 hundred ocaml programmers and over 30 million lines of ocaml. nearly a million lines of their code are open source. moreover, they've created key parts of the open-source ocaml ecosystem, like dune (community de facto build system) <a href="https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/">tech blog discussing dune</a>; core (alternative standard library); async (cooperative concurrency library) and most recently <a href="https://blog.janestreet.com/introducing-oxcaml/">OxCaml</a> i.e fast-moving set of extensions to the ocaml language.</p><p>quoted from their blog:</p><blockquote>OxCaml is both <b>Jane Street’s production compiler</b>, as well as a <b>laboratory for experiments</b> focused towards making OCaml better for performance-oriented programming</blockquote><p>head of technology at jane street (yaron minsky) published a <a href="https://www.cambridge.org/core/journals/journal-of-functional-programming/article/caml-trading-experiences-with-functional-programming-on-wall-street/02F18023B4C43BF6E53512AA7062A9A5">paper</a> about using ocaml in the financial industry, i highly recommend you to read this paper.</p><ul><li>another project is multicore ocaml, <a href="https://kcsrk.info/papers/multicore-ocaml20.pdf">technical paper</a>. now jane street has been instrumental in this area by funding research in multicore ocaml and the ocaml compiler via a research grant for the last 10+ years through the ocaml labs initiative at uni of cambridge. moreover, the tools and compiler (t&c) team at jane street actively engage with the multicore ocaml devs. <a href="https://annas-archive.org/scidb/10.1145/3192366.3192421/">another paper</a> which dives deep in the workings of multicore</li></ul><p>some other major corps that use ocaml are bloomberg, docker, cea-list, simcorp, etc. see <a href="https://ocaml.org/industrial-users/businesses">more</a>.</p><p>if this does sound interesting to you, then ask yourself what's stopping you from learning ocaml?</p></div></article>
     <div class="footer">
-      Copyright © 2026 Sarthak Tomar. All rights reserved.
+      <i>Copyright © 2026 Sarthak Tomar. All rights reserved.</i>
     </div>
   </body>
 </html>

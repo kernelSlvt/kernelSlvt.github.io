@@ -2,16 +2,20 @@ title: sλrthak
 date: 2025-12-22
 -----
 
-hey! i'm a second year cs undergrad interested in **ml engineering**, **systems programming**, **compilers** and **high performance computing**. i post about my work and interests here.
+cs sophomore interested in **inference eng**, **high perf computing** and **distributed systems**.
 
-i'm trying to discover more interesting things out there and spend time learning and reflecting on them. witnessing the emerging effects of a dozen matmuls is incredible to me. long term goal is to understand them in great depth and build systems for them in order to build intelligence.
+trying to discover more interesting things out there and spend time learning and reflecting on them. witnessing the emerging effects of a dozen **matmuls** is incredible to me. long term goal is to understand them in great depth and **build systems** for them in order to build **intelligence**.
 
-currently: building **RAG pipeline** from scratch || writing **gpu kernels**
+open to **new roles** in the _above fields!_ you can mail me [here](mailto:sarthaktomar2143@gmail.com).
 
-open to **new roles** in the above fields!
+[resume](https://google.com) // [github](https://github.com/kernelslvt) // [twitter](https://x.com/sarthak2143) // [linkedin](https://linkedin.com/in/sarthak2143)
 
-c++ // cuda // python // rust // ts // golang // ocaml // haskell
+### major projects
 
-> "waking up is the second hardest thing in the morning"
->
-> -- me
+- [lyney](https://github.com/kernelslvt/lyney): ai coding agent using gemini function tooling
+- [sakura](https://github.com/kernelslvt/sakura): fastest multimedia player for the terminal written in cpp
+
+### minor projects
+
+- [spotify2mp3](https://github.com/kernelslvt/spotify2mp3): download spotify playlists/albums/songs locally
+- [cf-parser](https://github.com/kernelslvt/cf-parser): download problems from codeforces with test cases

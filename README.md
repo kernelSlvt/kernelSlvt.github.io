@@ -1,14 +1,4 @@
-[live link](https://kernelSlvt.github.io)
+[live link](https://saartomar.github.io)
 
-idea:
-- split md into blocks
-- convert each block to tree of `HTMLNode` objs
+not updated frequently, refer to my [bearblog](https://sarthak2143.bearblog.dev) instead lol
 
-  raw md -> `TextNode` -> `HTMLNode`
-- join all html nodes
-
-
-TODO:
-
-- [ ] fix breaking tests
-- [ ] write new tests

@@ -1,12 +1,12 @@
 body {
-  background-color: #121314;
-  color: #f0e6d1;
+  background-color: #282828;
+  color: #ebdbb2;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.7;
   margin: 0;
   padding: 20px;
-  max-width: 900px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #eb99a1;
+  color: #fabd2f;
   margin-top: 8px;
   font-family: "Instrument Serif", serif;
   margin-bottom: 8px;
@@ -32,7 +32,7 @@ h6 {
 }
 
 .full-name {
-  color: #f0e6d1;
+  color: #ebdbb2;
   margin-top: 0px;
   margin-bottom: 8px;
 }
@@ -60,13 +60,13 @@ h6 {
 }
 
 a {
-  color: #eb99a1;
+  color: #fabd2f;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e26f7a;
-  border-color: #e26f7a;
+  color: #fe8019;
+  border-color: #fe8019;
 }
 
 ul,
@@ -96,12 +96,11 @@ pre code {
 pre {
   background-color: #40363a;
   overflow: auto;
-  box-shadow: 2px 2px 6px #000;
 }
 
 blockquote {
-  background-color: #40363a;
-  border-left: 4px solid #8d99ae;
+  background-color: #32302f;
+  border-left: 3px solid #334155;
   padding-left: 2em;
   margin-left: 0;
   padding-top: 0.5em;
