@@ -11,6 +11,13 @@ from htmlnode import ParentNode
 logger: logging.Logger = logging.getLogger(__name__)
 
 
+def extract_title(markdown: str) -> str:
+  for line in markdown.split("\n"):
+    if line.startswith("# "):
+      return line[2:].strip()
+  raise Exception("No h1 header found in markdown")
+
+
 def extract_metadata(markdown: str) -> list[str]:
   metadata: list[str] = markdown.split("-----", 1)[0].strip().split("\n")
   title: str = ""
@@ -59,7 +66,7 @@ def generate_pages_recursive(
     dest_path: Path = dest_dir_path / content
 
     if file_path.is_file():
-      if file_path.name.startswith("_"):
+      if file_path.name.startswith("_") or file_path.suffix != ".md":
         continue
       generate_page(file_path, template_path, dest_path)
       dest_path.rename(dest_path.with_suffix(".html"))

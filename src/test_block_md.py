@@ -132,7 +132,7 @@ print("hello world")
     node = markdown_to_html_node(md)
     html = node.to_html()
     self.maxDiff = None
-    right_html = """<div><h2>this is a h2 heading <i>italic word</i></h2><p>this is a paragraph with <b>bold</b> and <i>italic</i> words with a <a href="https://google.com">link</a></p><p>this is an unordered list</p><ol><li>apples</li><li><i>organges</i></li><li><a href="https://github.com">github</a></li></ol><p>tv girl albums name</p><ul><li>Who Really Cares</li><li>French Exit</li><li>Death of a Party Girl</li><li><b>bold</b> word and an <i>italic</i> word with <a href="https://spotify.com">link</a></li></ul><p><img src="https://cdn.pfps.gg/pfps/76557-old.gif" alt="image"></img></p><pre><code>print("hello world")\\n</code></pre><blockquote>this is a blockquote\n spanning into another line</blockquote></div>"""
+    right_html = """<div><h2>this is a h2 heading <i>italic word</i></h2><p>this is a paragraph with <b>bold</b> and <i>italic</i> words with a <a href="https://google.com">link</a></p><p>this is an unordered list</p><ol><li>apples</li><li><i>organges</i></li><li><a href="https://github.com">github</a></li></ol><p>tv girl albums name</p><ul><li>Who Really Cares</li><li>French Exit</li><li>Death of a Party Girl</li><li><b>bold</b> word and an <i>italic</i> word with <a href="https://spotify.com">link</a></li></ul><p><img src="https://cdn.pfps.gg/pfps/76557-old.gif" alt="image"></img></p><pre><code>print("hello world")\\n</code></pre><blockquote>this is a blockquote\nspanning into another line</blockquote></div>"""
     self.assertEqual(html, right_html)
 
 

@@ -7140,3 +7140,153 @@ INFO:root:Generating page from content/writeups/learn_ocaml/index.md to docs/wri
 INFO:root:Generating page from content/writeups/randomness_impl/index.md to docs/writeups/randomness_impl/index.md using templates/blog.html.
 INFO:root:FINISHED at Thu Apr 23 10:37:53 2026
 
+INFO:root:STARTED at Wed Jul 15 18:07:06 2026
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/gruvbox-dark-hard.css
+INFO:root:Generating page from content/_index.md to docs/index.html using templates/home.html.
+INFO:root:Generating page from content/blogs/make_cool_stuff/index.md to docs/blogs/make_cool_stuff/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/learn_ocaml/index.md to docs/writeups/learn_ocaml/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/randomness_impl/index.md to docs/writeups/randomness_impl/index.md using templates/blog.html.
+INFO:root:FINISHED at Wed Jul 15 18:07:06 2026
+
+INFO:root:STARTED at Wed Jul 15 18:08:43 2026
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/gruvbox-dark-hard.css
+INFO:root:Generating page from content/_index.md to docs/index.html using templates/home.html.
+INFO:root:Generating page from content/blogs/make_cool_stuff/index.md to docs/blogs/make_cool_stuff/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/learn_ocaml/index.md to docs/writeups/learn_ocaml/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/randomness_impl/index.md to docs/writeups/randomness_impl/index.md using templates/blog.html.
+INFO:root:FINISHED at Wed Jul 15 18:08:43 2026
+
+INFO:root:STARTED at Wed Jul 15 18:08:52 2026
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/gruvbox-dark-hard.css
+INFO:root:Generating page from content/_index.md to docs/index.html using templates/home.html.
+INFO:root:Generating page from content/blogs/make_cool_stuff/index.md to docs/blogs/make_cool_stuff/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/learn_ocaml/index.md to docs/writeups/learn_ocaml/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/randomness_impl/index.md to docs/writeups/randomness_impl/index.md using templates/blog.html.
+INFO:root:FINISHED at Wed Jul 15 18:08:52 2026
+
+INFO:root:STARTED at Wed Jul 15 18:11:28 2026
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/gruvbox-dark-hard.css
+INFO:root:Generating page from content/_index.md to docs/index.html using templates/home.html.
+INFO:root:Generating page from content/blogs/make_cool_stuff/index.md to docs/blogs/make_cool_stuff/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/learn_ocaml/index.md to docs/writeups/learn_ocaml/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/randomness_impl/index.md to docs/writeups/randomness_impl/index.md using templates/blog.html.
+INFO:root:FINISHED at Wed Jul 15 18:11:28 2026
+
+INFO:root:STARTED at Wed Jul 15 18:15:27 2026
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/gruvbox-dark-hard.css
+INFO:root:Generating page from content/_index.md to docs/index.html using templates/home.html.
+INFO:root:Generating page from content/blogs/make_cool_stuff/index.md to docs/blogs/make_cool_stuff/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/learn_ocaml/index.md to docs/writeups/learn_ocaml/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/randomness_impl/index.md to docs/writeups/randomness_impl/index.md using templates/blog.html.
+INFO:root:FINISHED at Wed Jul 15 18:15:27 2026
+
+INFO:root:STARTED at Wed Jul 15 18:16:18 2026
+INFO:root:Copy static/index.css
+INFO:root:Copy static/images/gojo.jpeg
+INFO:root:Copy static/images/ritsuko.png
+INFO:root:Copy static/images/steps.png
+INFO:root:Copy static/images/frieren-studying.jpg
+INFO:root:Copy static/images/partitions.png
+INFO:root:Copy static/images/immutability.jpg
+INFO:root:Copy static/images/favicon.ico
+INFO:root:Copy static/images/rand_max.png
+INFO:root:Copy static/images/reddit-meme.jpg
+INFO:root:Copy static/images/blackbox1.png
+INFO:root:Copy static/images/square.png
+INFO:root:Copy static/images/die_num_line.png
+INFO:root:Copy static/images/blackbox2.png
+INFO:root:Copy static/images/lain-meme.jpeg
+INFO:root:Copy static/images/lain_studying.png
+INFO:root:Copy static/images/blackbox3.png
+INFO:root:Copy static/gruvbox-dark-hard.css
+INFO:root:Generating page from content/_index.md to docs/index.html using templates/home.html.
+INFO:root:Generating page from content/blogs/make_cool_stuff/index.md to docs/blogs/make_cool_stuff/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/learn_ocaml/index.md to docs/writeups/learn_ocaml/index.md using templates/blog.html.
+INFO:root:Generating page from content/writeups/randomness_impl/index.md to docs/writeups/randomness_impl/index.md using templates/blog.html.
+INFO:root:FINISHED at Wed Jul 15 18:16:18 2026
+

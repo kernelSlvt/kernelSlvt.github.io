@@ -68,7 +68,7 @@ def _convertToListItems(list_text: str) -> list[ParentNode]:
       list_items.append(ParentNode("li", _text_to_children(text)))
   else:
     for lli in li:
-      text = lli[3:]
+      text = lli.split(". ", 1)[1]
       list_items.append(ParentNode("li", _text_to_children(text)))
   return list_items
 
@@ -82,9 +82,9 @@ def markdown_to_blocks(markdown: str) -> list[str]:
   for line in lines:
     # replacing the lt and gt signs
     if line.startswith(">"):
-      line = ">" + line[1:].replace("<", "&lt").replace(">", "&gt")
+      line = ">" + line[1:].replace("<", "&lt;").replace(">", "&gt;")
     else:
-      line = line.replace("<", "&lt").replace(">", "&gt")
+      line = line.replace("<", "&lt;").replace(">", "&gt;")
 
     # we dont want to split lines in our codeblock
     if line.startswith("```"):
@@ -132,8 +132,11 @@ def markdown_to_html_node(markdown: str) -> ParentNode:
           ordered_list: ParentNode = ParentNode("ol", list_items)
           parentNode.children.append(ordered_list)  # pyright: ignore[reportOptionalMemberAccess]
         case BlockType.CODE:
-          first_line: str = block.split("\n")[0]
-          text: str = block.replace(first_line, "").replace("```", "").strip()
+          lines_: list[str] = block.split("\n")
+          # strip opening fence (lines_[0]) and closing fence (lines_[-1])
+          text: str = "\n".join(lines_[1:-1]) + "\n"
+          # escape newlines as literal \n for HTML output
+          text = text.replace("\n", "\\n")
           code_node: TextNode = TextNode(text, TextType.CODE)
           code_leaf_node: LeafNode = text_node_to_html_node(code_node)
           code: ParentNode = ParentNode("pre", [code_leaf_node])

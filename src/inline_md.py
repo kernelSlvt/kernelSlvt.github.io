@@ -15,8 +15,9 @@ def split_nodes_delimiter(
     split_nodes: list[TextNode] = []
     sections: list[str] = node.text.split(delimiter)
     if len(sections) % 2 == 0:
-      print(old_nodes)
-      raise ValueError("invalid md")
+      # odd number of delimiters = unbalanced; treat node as plain text
+      new_nodes.append(node)
+      continue
 
     for i in range(len(sections)):
       if sections[i] == "":
