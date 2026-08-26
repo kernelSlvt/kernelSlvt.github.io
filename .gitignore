@@ -3,6 +3,7 @@ __pycache__/
 build/
 public/*
 docs/
+plans/
 file_events.log
 .vscode/
 AGENTS.md
