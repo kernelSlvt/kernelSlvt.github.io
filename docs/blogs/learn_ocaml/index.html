@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>why you should learn ocaml — sλrthak</title>
+    <meta name="description" content="all of the following ideologies apply to all functional programming languages but here i will be only focusing on ocaml." />
+    <link rel="canonical" href="https://sarrthak.com/blogs/learn_ocaml/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="sλrthak" />
+    <meta property="og:title" content="why you should learn ocaml — sλrthak" />
+    <meta property="og:description" content="all of the following ideologies apply to all functional programming languages but here i will be only focusing on ocaml." />
+    <meta property="og:url" content="https://sarrthak.com/blogs/learn_ocaml/" />
+    <meta property="og:image" content="https://sarrthak.com/images/ritsuko.png" />
+    <meta property="og:image:alt" content="sλrthak social preview" />
+
+    <meta property="article:published_time" content="2025-07-30" />
+
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="why you should learn ocaml — sλrthak" />
+    <meta name="twitter:description" content="all of the following ideologies apply to all functional programming languages but here i will be only focusing on ocaml." />
+    <meta name="twitter:image" content="https://sarrthak.com/images/ritsuko.png" />
+    <link rel="describedby" href="/llms.txt" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="sλrthak — writing"
+      href="/feed.xml"
+    />
+
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]] },
+        options: { skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"] },
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+
+    <link rel="stylesheet" href="/gruvbox-dark-hard.css" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        if (window.hljs) window.hljs.highlightAll();
+      });
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500&amp;display=optional"
+      rel="stylesheet"
+    />
+    <link href="/index.css" rel="stylesheet" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="blog-page">
+    <a class="skip-link" href="#main-content">skip to content</a>
+    <header class="site-header">
+  <div class="site-identity">
+
+    <a class="site-title" href="/">sλrthak</a>
+
+    <span class="site-name">sarthak tomar</span>
+  </div>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <a href="https://github.com/saarthak314">github</a>
+    <a href="https://x.com/sarthak2143">twitter/x</a>
+    <a href="https://linkedin.com/in/sarthaktomar2143">linkedin</a>
+    <a href="https://discord.com/users/1226399791362080820">discord</a>
+  </nav>
+</header>
+
+
+<main id="main-content" tabindex="-1">
+  <header class="blog-header">
+    <div class="blog-meta">
+      <a class="blog-back" href="/blogs/">&lt;- writing</a>
+      <time class="blog-date" datetime="2025-07-30">30 jul 2025</time>
+      <span class="blog-reading-time">6 min read</span>
+    </div>
+    <h1 class="blog-heading">why you should learn ocaml</h1>
+  </header>
+  <article class="blog-article"><p>all of the following ideologies apply to all functional programming languages but here i will be only focusing on ocaml.</p>
+<blockquote>
+<p>relatablequote.jpg</p>
+</blockquote>
+<blockquote>
+<p>Nan-in (南隠), a Japanese master during the Meiji era (1868-1912), received a university professor who came to inquire about Zen. Nan-in served tea. He poured his visitor’s cup full, and then kept on pouring. The professor watched the overflow until he no longer could restrain himself. “It is overfull. No more will go in!” “Like this cup,” Nan-in said, “you are full of your own opinions and speculations. How can I show you Zen unless you first empty your cup?”</p>
+</blockquote>
+<p>how can learning ocaml will make you a better programmer? because you will:</p>
+<ul>
+<li>experience the freedom of <em>immutability</em>, fuck debugging</li>
+<li>improve at <em>abstraction</em>, fuck bloated code (luke smith giggles)</li>
+<li>learn a better <em>type system</em>, fuck failing tests</li>
+<li>get exposed to some <em>theory and implementation of programming languages</em></li>
+</ul>
+<p>ocaml will change the way you think about programming</p>
+<p>&quot;a language that doesn’t affect the way you think about programming is not worth knowing.&quot; - alan j. perlis (first recipient of turing award)</p>
+<p>moreover, ocaml is beautiful. some normies might not agree to this statement but <strong>aesthetics do matter</strong>. ocaml is elegant, simple and graceful.</p>
+<p>fyi ocaml stands for <em>objective abstract machine language</em>, read <a href="https://cs3110.github.io/textbook/chapters/intro/past.html">more<span class="visually-hidden"> at cs3110.github.io</span></a> about its history.</p>
+<p><img src="/images/ritsuko.png" alt="ritsuko holding orly" loading="lazy" decoding="async" width="1920" height="1080" /></p>
+<p>ocaml is <em>awesome</em> due to:</p>
+<ul>
+<li>immutable programming</li>
+<li>algebraic datatype and pattern matching</li>
+<li>first-class functions</li>
+<li>static type-checking</li>
+<li>auto type inference</li>
+<li>parametric polymorphism</li>
+<li>garbage collection</li>
+<li>modules</li>
+</ul>
+<p>before moving on, you need to understand that <strong>languages are tools</strong>
+each language is meant for a specific job</p>
+<ul>
+<li>there is no universally perfect tool</li>
+<li>hence, there is no universally perfect language</li>
+</ul>
+<p>what is a functional language?</p>
+<p>a functional language:</p>
+<ul>
+<li>defines computations as <em>mathematical functions</em></li>
+<li>avoids mutable <em>state</em></li>
+</ul>
+<p><strong>state</strong>: the info maintained by a computation</p>
+<p>back to basics, what is the difference between a functional programming language (ocaml, haskell, lisp, etc) and an imperative programming language (c++, java, python, etc)?</p>
+<p>the key linguistic abstraction of <em>functional languages</em> is a mathematical function. a function maps an input to an output and for the same input, it always produces the same output. which means that mathematical functions are <em>stateless</em>: they don't maintain any extra info or <em>state</em> that persists between usages of the function.</p>
+<p>functions are <em>first-class</em>: you can use them as input to other functions, and produce functions as output. expressing everything in terms of function enables a uniform and simple programming model that is easier to reason than the procedures and methods found in other langs.</p>
+<p>now, <em>imperative languages</em> involve <em>mutable</em> state that changes throughout execution. commands specify how to compute by destructively changing that state. procedures/methods can have <em>side effects</em> that update state in addition to producing a return value.</p>
+<p>an example of destructive change of state is</p>
+<pre><code>x = x + 1
+</code></pre>
+<p>now this may seem fine to you, but this will trigger any mathematician.</p>
+<p>buy why is <em>mutability</em> bad?</p>
+<p>the <strong>fantasy</strong> of mutability: its easy to reason about, computer does operations step by step</p>
+<p>the <strong>reality</strong> of mutability: indeed, machines are good at complicated manipulation of state, but the thing is that humans are not good at understanding it. the essence of why's that true is that mutability breaks <em>referential transparency</em>: the ability to replace an expression with its value w/o affecting the result of a computation.</p>
+<p>in math, $f(x) = y$, then you can substitute $y$ anywhere you see $f(x)$. in imperative languages, you cannot: $f$ might have side effects, so computing $f(x)$ at time $t$ might result in a different value than at time $t0$.</p>
+<p>it makes it tempting to believe that there's a single state that the machine manipulates and that the computer only does one thing at a time. computer systems go to great lengths in attempting to provide this illusion. but this in fact is just an <em>illusion</em>. in reality, there are many states, spread across threads, cores, processors, and networked systems and it all works concurrently. mutability makes reasoning about distributed state and concurrent execution immensely difficult.</p>
+<p><img src="/images/immutability.jpg" alt="immutability" loading="lazy" decoding="async" width="880" height="500" /></p>
+<p><em>immutability</em>, however, frees the programmer from these concerns. it provides powerful methods to build correct and concurrent programs.</p>
+<p>in functional langs:</p>
+<p><em>expressions</em> specify <strong>what to compute</strong></p>
+<ul>
+<li>variables never change value (this may break the very notion of calling them &quot;variables&quot;, identifier would be a better replacement, but it's what used throughout)</li>
+<li>functions never have side effects</li>
+</ul>
+<p>ocaml and other functional langs are nowhere near as popular as python, c++ or java. ocaml's real strength lies in language manipulation (compilers, analyzers, verifiers, provers, etc) after all it was evolved from the domain of theorem proving.</p>
+<p>but that doesn't mean that functional langs aren't used in the industry, there are many <a href="https://ocaml.org/learn/companies.html">industry</a> using ocaml and haskell. some of the major ones are:</p>
+<ul>
+<li>facebook: created a language Reason also known as ReasonML i.e syntax extension and toolchain for ocaml. fun fact, it was created by jordan walke who also created react framework at facebook. reason uses many syntax elements from javascript, compiles to native code using ocaml's compiler toolchain, and can compile to javascript using the <em>rescript</em> compiler.</li>
+</ul>
+<p>while reason compiles down to native code via ocaml's toolchain, it specifically differs in the syntax, error messages and editor tooling which provides similar experience to javascript or typescript for devs</p>
+<p>ex:</p>
+<pre><code>type schoolPerson = Teacher | Director | Student(string);
+let greeting = person =&gt;
+  switch (person) {
+  | Teacher =&gt; &quot;Hey Professor!&quot;
+  | Director =&gt; &quot;Hello Director.&quot;
+  | Student(&quot;Richard&quot;) =&gt; &quot;Still here Ricky?&quot;
+  | Student(anyOtherName) =&gt; &quot;Hey, &quot; ++ anyOtherName ++ &quot;.&quot;
+  };
+</code></pre>
+<p>reason is for front end dev which solves the problem of js lack of compile time typing.</p>
+<ul>
+<li>jane street: the largest commercial user of ocaml in the industry by a huge margin, for those who don't know jane street is a quantitative trading firm based in nyc. they are using ocaml for everything from research tools to trading systems to systems infra to accounting systems.</li>
+</ul>
+<p>they have over 500 hundred ocaml programmers and over 30 million lines of ocaml. nearly a million lines of their code are open source. moreover, they've created key parts of the open-source ocaml ecosystem, like dune (community de facto build system) <a href="https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/">tech blog discussing dune</a>; core (alternative standard library); async (cooperative concurrency library) and most recently <a href="https://blog.janestreet.com/introducing-oxcaml/">OxCaml</a> i.e fast-moving set of extensions to the ocaml language.</p>
+<p>quoted from their blog:</p>
+<blockquote>
+<p>OxCaml is both <strong>Jane Street’s production compiler</strong>, as well as a <strong>laboratory for experiments</strong> focused towards making OCaml better for performance-oriented programming</p>
+</blockquote>
+<p>head of technology at jane street (yaron minsky) published a <a href="https://www.cambridge.org/core/journals/journal-of-functional-programming/article/caml-trading-experiences-with-functional-programming-on-wall-street/02F18023B4C43BF6E53512AA7062A9A5">paper</a> about using ocaml in the financial industry, i highly recommend you to read this paper.</p>
+<ul>
+<li>another project is multicore ocaml, <a href="https://kcsrk.info/papers/multicore-ocaml20.pdf">technical paper</a>. now jane street has been instrumental in this area by funding research in multicore ocaml and the ocaml compiler via a research grant for the last 10+ years through the ocaml labs initiative at uni of cambridge. moreover, the tools and compiler (t&amp;c) team at jane street actively engage with the multicore ocaml devs. <a href="https://annas-archive.org/scidb/10.1145/3192366.3192421/">another paper</a> which dives deep in the workings of multicore</li>
+</ul>
+<p>some other major corps that use ocaml are bloomberg, docker, cea-list, simcorp, etc. see <a href="https://ocaml.org/industrial-users/businesses">more<span class="visually-hidden"> at ocaml.org</span></a>.</p>
+<p>if this does sound interesting to you, then ask yourself what's stopping you from learning ocaml?</p>
+</article>
+
+  <nav class="article-nav" aria-label="Article navigation">
+    <a href="/blogs/">all writings</a>
+    <a href="#main-content">top</a>
+  </nav>
+</main>
+
+
+    <footer class="footer">
+  <span>© 2026 sarthak tomar. built by hand.</span>
+  <nav class="footer-links" aria-label="Footer navigation">
+    <a href="mailto:hey@sarrthak.com">email</a>
+    <a href="/feed.xml">rss</a>
+  </nav>
+</footer>
+  </body>
+</html>

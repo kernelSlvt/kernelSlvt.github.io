@@ -1,41 +1,24 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ Title }}</title>
-    <!-- math jax -->
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-    </script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-    ></script>
-    <!-- highlight.js -->
-    <link rel="stylesheet" href="/gruvbox-dark-hard.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script>
-    <script>
-      hljs.highlightAll();
-    </script>
-    <!-- font -->
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
-    </style>
-    <!---- -->
-    <link href="/index.css" rel="stylesheet" />
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
-  </head>
-  <body>
-    <h2><a href="/">sλrthak</a></h2>
-    <h1 class="blog-heading">{{ Title }}</h1>
-    <i>{{ Date }}</i>
-    <br />
-    <br />
-    <article>{{ Content }}</article>
-    <div class="footer">
-      <i>Copyright © 2026 Sarthak Tomar. All rights reserved.</i>
+{% extends "base.html" %}
+
+{% block main %}
+<main id="main-content" tabindex="-1">
+  <header class="blog-header">
+    <div class="blog-meta">
+      <a class="blog-back" href="/blogs/">&lt;- writing</a>
+      <time class="blog-date" datetime="{{ page.date|iso_date }}">{{ page.date|full_date }}</time>
+      <span class="blog-reading-time">{{ page.rendered.reading_time }}</span>
     </div>
-  </body>
-</html>
+    <h1 class="blog-heading">{{ page.title }}</h1>
+  </header>
+  <article class="blog-article">{{ content }}</article>
+  {% if page.tags %}
+  <nav class="blog-tags" aria-label="Article tags">
+    {% for tag in page.tags %}<a href="/tags/{{ tag|tag_slug }}/">{{ tag }}</a>{% endfor %}
+  </nav>
+  {% endif %}
+  <nav class="article-nav" aria-label="Article navigation">
+    <a href="/blogs/">all writings</a>
+    <a href="#main-content">top</a>
+  </nav>
+</main>
+{% endblock %}

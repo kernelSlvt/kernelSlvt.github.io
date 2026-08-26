@@ -1,0 +1,15 @@
+# sλrthak
+
+> personal notes on inference systems, high-performance computing, distributed systems, and things built along the way.
+
+## navigation
+
+- [home](/): about sarthak, current interests, experience, and projects.
+- [all writings](/blogs/): every article, ordered newest first.
+- [rss feed](/feed.xml): the latest writing in rss 2.0 format.
+
+## writings
+
+- [make cool stuff](/blogs/make_cool_stuff/): building soulful projects, escaping tutorial hell, and learning from first principles.
+- [why you should learn ocaml](/blogs/learn_ocaml/): functional programming, immutability, type systems, and why ocaml changes how you think.
+- [on randomness and its implementation](/blogs/randomness_impl/): pseudorandom numbers, random number generators, and monte carlo integration.

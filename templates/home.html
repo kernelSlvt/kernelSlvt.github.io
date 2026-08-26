@@ -1,48 +1,20 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>sλrthak</title>
-    <!-- math jax -->
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-    </script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-    ></script>
-    <!-- highlight.js -->
-    <link rel="stylesheet" href="/gruvbox-dark-hard.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script>
-    <script>
-      hljs.highlightAll();
-    </script>
-    <!-- font -->
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
-    </style>
-    <!---- -->
-    <link href="/index.css" rel="stylesheet" />
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
-    <style>
-      h3 {
-        color: #f0e6d1;
-      }
-    </style>
-  </head>
-  <body>
-    <h2 class="name-title"><a href="/">sλrthak</a></h2>
-    <h3 class="full-name">(sarthak tomar)</h3>
-    <article>{{ Content }}</article>
-    <h3>writeups</h3>
-    {{ Writeups }}
-    <h3>blogs</h3>
-    {{ Blogs }}
-    <br />
-    <div class="footer">
-      <i>Copyright © 2026 Sarthak Tomar. All rights reserved.</i>
-    </div>
-  </body>
-</html>
+{% extends "base.html" %}
+
+{% block main %}
+<main id="main-content" tabindex="-1">
+  <article class="home-intro">{{ content }}</article>
+
+  <section class="home-writing" id="writing" aria-labelledby="writing-title">
+    <h2 class="home-section-heading" id="writing-title">writing</h2>
+    <ul class="writing-list">
+      {% for post in index.recent_posts %}
+      <li class="writing-row">
+        <span class="writing-row__date">{{ post.date|month_year }}</span>
+        <a class="writing-row__title" href="{{ post.route }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="home-writing-all" href="/blogs/">all writings</a>
+  </section>
+</main>
+{% endblock %}

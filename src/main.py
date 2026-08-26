@@ -1,48 +1,10 @@
-import logging
-import shutil
-import time
 from pathlib import Path
 
-from utils import (
-  copy_files,
-  generate_page,
-  generate_pages_recursive,
-)
-
-logger: logging.Logger = logging.getLogger(__name__)
+from sitegen.build import SiteBuilder
 
 
-def main() -> None:
-  logging.basicConfig(filename="file_events.log", level=logging.INFO)
-  logging.info(f"STARTED at {time.asctime()}")
-
-  # clean the docs/
-  dest_path: Path = Path("./docs")
-  src_path: Path = Path("./static")
-  if dest_path.exists():
-    shutil.rmtree(dest_path)
-  dest_path.mkdir(parents=True, exist_ok=True)
-  # copy all the files and subdirectories from static/ to public/
-  copy_files(src_path, dest_path)
-
-  # generate the index page
-  index_path: Path = Path("./content/_index.md")
-  index_template_path: Path = Path("./templates/home.html")
-  index_dest_path: Path = Path("./docs/index.html")
-  generate_page(index_path, index_template_path, index_dest_path)
-
-  # generate the blogs dir
-  blogs_path: Path = Path("./content/blogs")
-  blog_template_path: Path = Path("./templates/blog.html")
-  blogs_dest_path: Path = Path("./docs/blogs/")
-  generate_pages_recursive(blogs_path, blog_template_path, blogs_dest_path)
-
-  # generate the writeups dir
-  writeups_path: Path = Path("./content/writeups")
-  writeups_dest_path: Path = Path("./docs/writeups/")
-  generate_pages_recursive(writeups_path, blog_template_path, writeups_dest_path)
-
-  logging.info(f"FINISHED at {time.asctime()}\n")
+def main():
+  return SiteBuilder(Path.cwd()).build()
 
 
 if __name__ == "__main__":

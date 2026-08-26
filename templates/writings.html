@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block main %}
+<main id="main-content" tabindex="-1">
+  <header class="writings-header">
+    <h1 class="writings-heading">{{ page.title }}</h1>
+    <p class="writings-summary">everything i've written, newest first.</p>
+  </header>
+  <ul class="writing-list">
+    {% for post in items %}
+    <li class="writing-row">
+      <span class="writing-row__date">{{ post.date|full_date }}</span>
+      <a class="writing-row__title" href="{{ post.route }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% if total_pages > 1 %}
+  <nav class="pagination" aria-label="Pagination">
+    {% if previous_url %}<a rel="prev" href="{{ previous_url }}">previous</a>{% endif %}
+    <span>page {{ page_number }} of {{ total_pages }}</span>
+    {% if next_url %}<a rel="next" href="{{ next_url }}">next</a>{% endif %}
+  </nav>
+  {% endif %}
+</main>
+{% endblock %}

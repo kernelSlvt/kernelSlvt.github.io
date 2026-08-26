@@ -2,25 +2,22 @@ title: sλrthak
 date: 2025-12-22
 -----
 
-cs undergrad interested in **inference eng**, **high perf computing** and **distributed systems**.
+hey, i'm sarthak. 20 y/o cs undergrad into **inference systems**, **high-performance computing**, and **distributed systems**.
 
-trying to discover more interesting things out there and spend time learning and reflecting on them. witnessing the emerging effects of a dozen **matmuls** is incredible to me. long term goal is to understand them in great depth and **build systems** for them in order to build **intelligence**.
+mostly obsessed with the machinery behind intelligence: how a pile of matmuls turns into useful behaviour, and how to make the systems around it fast, reliable, and efficient.
 
-[github](https://github.com/saarthak314) // [twitter](https://x.com/sarthak2143) // [linkedin](https://linkedin.com/in/sarthaktomar2143) // [discord](https://discord.com/users/1226399791362080820)
+currently going deep on **pretraining**, **post-training**, and the systems around them.
 
-contact at hey @ sarrthak dot com
+this site is a log of things i'm learning, building, or overthinking. usually the latter.
 
-### work exp
+## experience
 
-- **freelance swe**: may 25 - mar 26
-- **systems eng** @ _math.inc_: jun 26 - present
+- **systems engineer** @ morph labs - jun 2026 to present
+- **freelance swe** - may 2025 to apr 2026
 
-### major projects
+## projects
 
-- [paimon](https://github.com/saarthak314/paimon): agentic coding harness featuring every model
-- [sakura](https://github.com/saarthak314/sakura): fastest multimedia player available for the terminal written in pure cpp
-
-### minor projects
-
-- [spotify2mp3](https://github.com/saarthak314/spotify2mp3): download spotify playlists/albums/songs locally
-- [cf-parser](https://github.com/saarthak314/cf-parser): download problems from codeforces with test cases
+- [paimon](https://github.com/saarthak314/paimon) - an agentic coding harness that works across model providers
+- [sakura](https://github.com/saarthak314/sakura) - fastest terminal multimedia player written in c++
+- [spotify2mp3](https://github.com/saarthak314/spotify2mp3) - download spotify tracks, albums, and playlists locally
+- [cf-parser](https://github.com/saarthak314/cf-parser) - pull codeforces problems and test cases into a local workflow

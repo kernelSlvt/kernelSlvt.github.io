@@ -1,0 +1,199 @@
+import hashlib
+from collections.abc import Mapping
+from datetime import date
+from types import SimpleNamespace
+from typing import Any
+
+from jinja2 import Environment
+from markupsafe import Markup
+
+
+HOME_TITLE = "sλrthak — systems, models, machines"
+HOME_DESCRIPTION = (
+  "Sarthak Tomar writes about inference engineering, distributed systems, "
+  "high-performance computing, and the things he builds along the way."
+)
+WRITINGS_DESCRIPTION = (
+  "All writing by Sarthak Tomar, collected in one place and ordered newest first."
+)
+
+
+class TemplateRenderer:
+  def __init__(self, environment_or_config: Any) -> None:
+    if isinstance(environment_or_config, Environment):
+      self.environment = environment_or_config
+      self.config = None
+    else:
+      from sitegen.templates import create_environment
+
+      self.config = environment_or_config
+      self.environment = create_environment(environment_or_config.template_dir)
+
+  def render_page(self, page: Any, context: Any) -> str:
+    values = _context_values(context)
+    if _is_content_index(context):
+      values["index"] = context
+    if self.config is not None:
+      values.setdefault("config", self.config)
+    _normalize_pagination(values)
+    _normalize_tag(values)
+    if page.template == "tags.html":
+      values.setdefault("page_number", 1)
+      values.setdefault("total_pages", 1)
+      values.setdefault("previous_url", None)
+      values.setdefault("next_url", None)
+    values.update(
+      page=page,
+      content=Markup(page.rendered.html),
+      current_year=date.today().year,
+      document_title=_document_title(page),
+      meta_description=_meta_description(page),
+      og_type="article" if page.template == "blog.html" else "website",
+      body_class=_body_class(page.template),
+      footer_phrase=(
+        "built by hand." if page.template == "blog.html" else "built with love."
+      ),
+    )
+    output = self.environment.get_template(page.template).render(**values)
+    return "\n".join(line.rstrip() for line in output.splitlines()) + "\n"
+
+  def render_archive(self, page: Any, pagination: Any, index: Any) -> str:
+    archive_page = _page_at_route(page, pagination.route, self._site_url())
+    return self.render_page(
+      archive_page,
+      {
+        "config": self._config(),
+        "index": index,
+        "pagination": pagination,
+      },
+    )
+
+  def render_tag(self, tag: Any, index: Any) -> str:
+    items = tuple(tag.items)
+    published = items[0].date if items else date.today()
+    rendered = SimpleNamespace(
+      html="",
+      reading_time="1 min read",
+      has_math=False,
+      has_code=False,
+    )
+    page = SimpleNamespace(
+      title=tag.name,
+      date=published,
+      updated=None,
+      route=tag.route,
+      canonical_url=f"{self._site_url()}{tag.route}",
+      description=f"writing tagged {tag.name}",
+      social_image_url=_absolute_url(self._site_url(), self._config().social_image),
+      tags=(),
+      rendered=rendered,
+      template="tags.html",
+    )
+    return self.render_page(
+      page,
+      {
+        "config": self._config(),
+        "index": index,
+        "tag": tag,
+      },
+    )
+
+  def template_digest(self, template_name: str) -> str:
+    digest = hashlib.sha256()
+    for name in (
+      template_name,
+      "base.html",
+      "partials/header.html",
+      "partials/footer.html",
+    ):
+      source, _, _ = self.environment.loader.get_source(self.environment, name)
+      digest.update(name.encode("utf-8"))
+      digest.update(b"\0")
+      digest.update(source.encode("utf-8"))
+      digest.update(b"\0")
+    return digest.hexdigest()
+
+  def _config(self) -> Any:
+    if self.config is None:
+      raise ValueError("archive and tag rendering require a site configuration")
+    return self.config
+
+  def _site_url(self) -> str:
+    return self._config().site_url.rstrip("/")
+
+
+def _context_values(context: Any) -> dict[str, Any]:
+  if isinstance(context, Mapping):
+    return dict(context)
+  if hasattr(context, "__dict__"):
+    return dict(vars(context))
+  fields = getattr(context, "__dataclass_fields__", {})
+  return {name: getattr(context, name) for name in fields}
+
+
+def _is_content_index(context: Any) -> bool:
+  return all(hasattr(context, name) for name in ("posts", "recent_posts"))
+
+
+def _normalize_pagination(values: dict[str, Any]) -> None:
+  pagination = values.get("pagination")
+  if pagination is not None and all(
+    hasattr(pagination, name)
+    for name in ("items", "page", "total_pages", "previous_url", "next_url")
+  ):
+    values.pop("pagination")
+    for name in (
+      "items",
+      "page",
+      "total_pages",
+      "previous_url",
+      "next_url",
+    ):
+      values.setdefault(name, getattr(pagination, name))
+
+  page_number = values.get("page")
+  if isinstance(page_number, int):
+    values["page_number"] = values.pop("page")
+
+
+def _normalize_tag(values: dict[str, Any]) -> None:
+  tag = values.get("tag")
+  if tag is None or isinstance(tag, str):
+    return
+  values["tag"] = getattr(tag, "name", tag)
+  values.setdefault("items", getattr(tag, "items", ()))
+
+
+def _document_title(page: Any) -> str:
+  if page.route == "/":
+    return HOME_TITLE
+  return f"{page.title} — sλrthak"
+
+
+def _meta_description(page: Any) -> str:
+  if page.route == "/":
+    return HOME_DESCRIPTION
+  if page.template == "writings.html":
+    return WRITINGS_DESCRIPTION
+  return page.description
+
+
+def _body_class(template_name: str) -> str:
+  return {
+    "home.html": "home-page",
+    "writings.html": "writings-page",
+    "blog.html": "blog-page",
+    "tags.html": "tags-page",
+  }[template_name]
+
+
+def _page_at_route(page: Any, route: str, site_url: str) -> SimpleNamespace:
+  values = _context_values(page)
+  values.update(route=route, canonical_url=f"{site_url}{route}")
+  return SimpleNamespace(**values)
+
+
+def _absolute_url(site_url: str, value: str) -> str:
+  if value.startswith(("https://", "http://")):
+    return value
+  return f"{site_url}/{value.lstrip('/')}"

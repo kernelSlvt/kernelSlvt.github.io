@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>sλrthak — writing</title>
+    <link>https://sarrthak.com</link>
+    <description>writing on inference systems, high-performance computing, distributed systems, and things built along the way.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>make cool stuff</title>
+      <link>https://sarrthak.com/blogs/make_cool_stuff/</link>
+      <guid isPermaLink="true">https://sarrthak.com/blogs/make_cool_stuff/</guid>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      <description>this article focuses on breaking free from repetitive programming projects, but its ideas can be applied to any creative field, like film making, music, or art.</description>
+    </item>
+    <item>
+      <title>why you should learn ocaml</title>
+      <link>https://sarrthak.com/blogs/learn_ocaml/</link>
+      <guid isPermaLink="true">https://sarrthak.com/blogs/learn_ocaml/</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <description>all of the following ideologies apply to all functional programming languages but here i will be only focusing on ocaml.</description>
+    </item>
+    <item>
+      <title>on randomness and its implementation</title>
+      <link>https://sarrthak.com/blogs/randomness_impl/</link>
+      <guid isPermaLink="true">https://sarrthak.com/blogs/randomness_impl/</guid>
+      <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
+      <description>despite einstein's meta-physical objections, the current models of physics, and particularly of quantum theory, are based on the idea that nature does indeed…</description>
+    </item>
+  </channel>
+</rss>
