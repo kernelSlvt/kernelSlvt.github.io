@@ -2,8 +2,9 @@ from __future__ import annotations
 
 import argparse
 import sys
+from collections.abc import Callable, Sequence
 from pathlib import Path
-from typing import Callable, Sequence, TextIO
+from typing import TextIO
 
 from .build import BuildOptions, SiteBuilder
 from .server import serve
@@ -34,6 +35,23 @@ def create_parser() -> argparse.ArgumentParser:
   )
   serve_parser.add_argument("--host", default="127.0.0.1")
   serve_parser.add_argument("--port", type=int, default=8888)
+
+  dev_parser = commands.add_parser("dev", help="serve with local development tools")
+  dev_parser.set_defaults(drafts=True)
+  dev_parser.add_argument(
+    "--no-drafts",
+    action="store_false",
+    dest="drafts",
+    help="exclude draft content",
+  )
+  dev_parser.add_argument("--host", default="127.0.0.1")
+  dev_parser.add_argument("--port", type=int, default=8888)
+  dev_parser.add_argument(
+    "--open",
+    action="store_true",
+    dest="open_browser",
+    help="open the site in the default browser",
+  )
 
   return parser
 
@@ -84,6 +102,21 @@ def main(
         host=arguments.host,
         port=arguments.port,
         watch=arguments.watch,
+        builder_factory=builder_factory,
+        stdout=output,
+        stderr=errors,
+      )
+      return 0 if result is None else result
+
+    if arguments.command == "dev":
+      result = serve_func(
+        root,
+        options,
+        host=arguments.host,
+        port=arguments.port,
+        watch=True,
+        live_reload=True,
+        open_browser=arguments.open_browser,
         builder_factory=builder_factory,
         stdout=output,
         stderr=errors,
