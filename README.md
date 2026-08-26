@@ -16,14 +16,17 @@ requires python 3.11+.
 
 ```sh
 python3 -m pip install -e .
-sitegen serve --watch --port 8888
+sitegen dev --open
 ```
+
+`dev` includes drafts, rebuilds on source changes, hot-swaps css, reloads changed pages, and keeps the last valid build visible when something breaks. use `--no-drafts` when needed.
 
 ## useful bits
 
 ```sh
 sitegen build       # build into docs/
 sitegen check       # validate the generated site
+sitegen serve       # serve once without dev tooling
 ./test.sh           # run the test suite
 ```
 
