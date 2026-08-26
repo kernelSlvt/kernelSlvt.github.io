@@ -1,4 +1,8 @@
 __pycache__/
+*.egg-info/
+build/
 public/*
+docs/
 file_events.log
 .vscode/
+AGENTS.md

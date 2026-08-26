@@ -1,0 +1,77 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Verify and deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Install generator
+        run: python -m pip install .
+      - name: Verify generator and site
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m unittest discover -s src -p 'test*.py'
+          python -m compileall -q src
+          sitegen build --no-incremental
+          sitegen check
+          if grep -R -n -E '\{\{|\{%|\{#' docs --include='*.html'; then
+            echo "unresolved template marker found"
+            exit 1
+          fi
+          git diff --check
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: docs
+      - name: Deploy GitHub Pages
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
+      - name: Smoke-test production routes
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE_URL="https://sarrthak.com"
+          routes=(
+            "/"
+            "/blogs/"
+            "/blogs/make_cool_stuff/"
+            "/blogs/learn_ocaml/"
+            "/blogs/randomness_impl/"
+            "/feed.xml"
+            "/sitemap.xml"
+            "/robots.txt"
+            "/llms.txt"
+          )
+          for route in "${routes[@]}"; do
+            curl --fail --silent --show-error --location \
+              --retry 10 --retry-all-errors --retry-delay 3 \
+              "$BASE_URL$route" >/dev/null
+          done
